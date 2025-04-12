@@ -18,10 +18,10 @@ The model addresses a binary classification task (artifact vs. artifact-free) wi
 3. Output includes accuracy, micro F1 score, and class-wise metrics (precision, recall, F1).
 
 ## Final Metrics
-- **Micro F1 Score**: 0.9950 (based on 99.50% accuracy and balanced performance).
-- **Accuracy**: 99.50% (199/200 correct).
-- **Class 0 (Artifacts)**: Precision 1.00, Recall 0.95, F1 0.97.
-- **Class 1 (No Artifacts)**: Precision 0.99, Recall 1.00, F1 1.00.
+- **Micro F1 Score**: 0.99.
+- **Accuracy**: 99% (198/200 correct).
+- **Class 0 (Artifacts)**: Precision 1.00, Recall 0.90, F1 0.95.
+- **Class 1 (No Artifacts)**: Precision 0.99, Recall 1.00, F1 0.99.
 - ![Screenshot from 2025-04-12 17-29-56](https://github.com/user-attachments/assets/2806125f-04c1-47cd-b088-e2c28807bbcd)
 - ![image](https://github.com/user-attachments/assets/f4131b1d-dcf9-4bbf-845c-21aa5555750e)
 
@@ -29,4 +29,3 @@ The model addresses a binary classification task (artifact vs. artifact-free) wi
 
 - The solution leverages Colab's free GPU.
 - Augmentation (flips, jitter, rotation) for class 0 improved minority class detection.
-- [Advanced] Ensemble approaches (e.g., ResNet + Vision Transformer) could be explored for further improvement.
