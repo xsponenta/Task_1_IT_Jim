@@ -6,6 +6,8 @@ When I made EDA, I have noticed thar data distribution is 1:9 class 1 and class 
 
 The model addresses a binary classification task (artifact vs. artifact-free) with a significant class imbalance (1:9). Augmentation techniques are applied to the minority class to improve performance.
 
+P.S.: All my solution is in .ipynb file, and short comments too.
+
 ## Installation
 1. Download files.
 2. Install dependencies: `!pip install -r requirements.txt`.
